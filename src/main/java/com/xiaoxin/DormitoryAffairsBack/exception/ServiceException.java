@@ -1,4 +1,4 @@
-package com.xiaoxin.datinghubback.exception;
+package com.xiaoxin.DormitoryAffairsBack.exception;
 
 public class ServiceException extends RuntimeException{
     private static final long serialVersionUID = 1L;

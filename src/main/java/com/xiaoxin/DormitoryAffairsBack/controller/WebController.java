@@ -1,4 +1,4 @@
-package com.xiaoxin.datinghubback.controller;
+package com.xiaoxin.DormitoryAffairsBack.controller;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -10,7 +10,7 @@ public class WebController {
     @GetMapping(value = "/")
     @ApiOperation(value ="版本校验接口")
     public String version() {
-        String ver = "XIAOXINDatingHub-back-0.0.1-SNAPSHOT";  // 应用版本号
+        String ver = "DormitoryAffairs-back-0.0.1-SNAPSHOT";  // 应用版本号
         Package aPackage = WebController.class.getPackage();
         String title = aPackage.getImplementationTitle();
         String version = aPackage.getImplementationVersion();

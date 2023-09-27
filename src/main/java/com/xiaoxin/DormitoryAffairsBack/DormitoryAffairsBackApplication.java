@@ -1,4 +1,4 @@
-package com.xiaoxin.datinghubback;
+package com.xiaoxin.DormitoryAffairsBack;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @MapperScan("com.xiaoxin.datinghubback.mapper")
-public class DatingHubBackApplication {
+public class DormitoryAffairsBackApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DatingHubBackApplication.class, args);
+        SpringApplication.run(DormitoryAffairsBackApplication.class, args);
     }
 
 }

@@ -1,4 +1,4 @@
-package com.xiaoxin.datinghubback.common;
+package com.xiaoxin.DormitoryAffairsBack.common;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.xiaoxin.datinghubback;
+package com.xiaoxin.DormitoryAffairsBack;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

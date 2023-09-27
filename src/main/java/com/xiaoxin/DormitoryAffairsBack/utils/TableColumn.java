@@ -1,4 +1,4 @@
-package com.xiaoxin.datinghubback.utils;
+package com.xiaoxin.DormitoryAffairsBack.utils;
 
 import lombok.Builder;
 import lombok.Data;

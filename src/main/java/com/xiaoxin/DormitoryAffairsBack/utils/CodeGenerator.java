@@ -1,7 +1,6 @@
-package com.xiaoxin.datinghubback.utils;
+package com.xiaoxin.DormitoryAffairsBack.utils;
 
 import cn.hutool.core.collection.CollUtil;
-import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.io.resource.ResourceUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.db.Db;
