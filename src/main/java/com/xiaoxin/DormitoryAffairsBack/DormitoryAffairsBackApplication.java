@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("com.xiaoxin.datinghubback.mapper")
+@MapperScan("com.xiaoxin.DormitoryAffairsBack.mapper")
 public class DormitoryAffairsBackApplication {
 
     public static void main(String[] args) {

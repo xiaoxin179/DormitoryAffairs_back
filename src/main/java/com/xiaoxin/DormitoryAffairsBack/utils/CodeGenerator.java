@@ -29,16 +29,12 @@ import java.util.*;
 @Slf4j
 public class CodeGenerator {
 
-    private static final String TABLE = "sys_user";  // 表名
-    private static final String MODULE_NAME = "动态";  // 菜单名称
+    private static final String TABLE = "user";  // 表名
+    private static final String MODULE_NAME = "用户表";  // 菜单名称
 
-    private static final String PACKAGE_NAME = "com.xiaoxin.datinghubback";  // java代码的包名
+    private static final String PACKAGE_NAME = "com.xiaoxin.DormitoryAffairsBack";  // java代码的包名
     private static final String AUTHOR = "xiaoxin";   // 作者
 
-    //
-//    private static final String VUE_CODE_PATH = "D:\\知识星球\\partner-manager\\src\\views\\";  // vue代码的路径
-
-    /*=========================  下面的不用改动  =========================*/
 
     private static final String PROJECT_PATH = System.getProperty("user.dir");
     public static final String MAPPER_XML_PATH = "/src/main/resources/mapper/";
