@@ -48,6 +48,10 @@ private static final long serialVersionUID = 1L;
     @ApiModelProperty("姓名")
     @Alias("姓名")
     private String name;
+//用户身份证
+    @ApiModelProperty("身份证")
+    @Alias("身份证")
+    private String idcard;
 
     // 用户唯一id标识
     @ApiModelProperty("用户唯一id标识")

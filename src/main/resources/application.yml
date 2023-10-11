@@ -4,9 +4,9 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/datinghub?serverTimezone=GMT%2b8
+    url: jdbc:mysql://107.173.35.191/DormitoryAffairs?serverTimezone=GMT%2b8
     username: root
-    password: 123456
+    password: dgy5201314
   # swagger
   mvc:
     pathmatch:

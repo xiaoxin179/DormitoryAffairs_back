@@ -37,4 +37,16 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
         return dbUser;
 
     }
+
+    @Override
+    public boolean updatePassword(User user) {
+        User dbUser = getOne(new QueryWrapper<User>().eq("username", user.getUsername()));
+        if (!user.getIdcard().equals(dbUser.getIdcard())) {
+            throw new ServiceException("身份证号码输入错误，无法重置密码");
+        }
+        else{
+            updateById(user);
+        }
+        return true;
+    }
 }

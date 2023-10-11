@@ -111,21 +111,10 @@ public class UserController {
 
     }
 
-    /**
-    * excel 导入
-    * @param file
-    * @throws Exception
-    */
-    @PostMapping("/import")
-    @SaCheckPermission("user.import")
-    public Result imp(MultipartFile file) throws Exception {
-        InputStream inputStream = file.getInputStream();
-        ExcelReader reader = ExcelUtil.getReader(inputStream);
-        // 通过 javabean的方式读取Excel内的对象，但是要求表头必须是英文，跟javabean的属性要对应起来
-        List<User> list = reader.readAll(User.class);
-
-        userService.saveBatch(list);
-        return Result.success();
+    @PostMapping("/updatePwd")
+    public Result updatePassword(@RequestBody User user) {
+        boolean res = userService.updatePassword(user);
+        return Result.success(res);
     }
 
 }
